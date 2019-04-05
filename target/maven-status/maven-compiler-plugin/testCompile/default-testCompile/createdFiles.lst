@@ -1,0 +1,7 @@
+utils\ReadProperties.class
+tests\LoginTest.class
+Configs\Configs.class
+utils\SeleniumSupport.class
+utils\TimeForWait.class
+datas\PathProvider.class
+modules\LoginPage.class

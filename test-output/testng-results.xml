@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15278" started-at="2019-04-05T01:24:40Z" finished-at="2019-04-05T01:24:55Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="15278" started-at="2019-04-05T01:24:40Z" finished-at="2019-04-05T01:24:55Z">
+      <class name="tests.LoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.LoginTest@3ffc5af1]" name="setup" is-config="true" duration-ms="5295" started-at="2019-04-05T01:24:40Z" finished-at="2019-04-05T01:24:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TC001(java.lang.String, java.lang.String)[pri:0, instance:tests.LoginTest@3ffc5af1]" name="TC001" duration-ms="1841" started-at="2019-04-05T01:24:45Z" data-provider="Invalid_Account" finished-at="2019-04-05T01:24:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0198666999]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC001 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.LoginTest@3ffc5af1]" name="tearDown" is-config="true" duration-ms="639" started-at="2019-04-05T01:24:47Z" finished-at="2019-04-05T01:24:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.LoginTest@3ffc5af1]" name="setup" is-config="true" duration-ms="4539" started-at="2019-04-05T01:24:48Z" finished-at="2019-04-05T01:24:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TC001(java.lang.String, java.lang.String)[pri:0, instance:tests.LoginTest@3ffc5af1]" name="TC001" duration-ms="2291" started-at="2019-04-05T01:24:52Z" data-provider="Invalid_Account" finished-at="2019-04-05T01:24:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0198666123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[aaaaaaaaa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC001 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.LoginTest@3ffc5af1]" name="tearDown" is-config="true" duration-ms="646" started-at="2019-04-05T01:24:54Z" finished-at="2019-04-05T01:24:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

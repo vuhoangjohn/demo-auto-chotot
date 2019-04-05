@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Functional Testing">
+	<test name="Build 001">
+		<classes>
+			<class name="tests.LoginTest" />
+		</classes>
+	</test>
+</suite>

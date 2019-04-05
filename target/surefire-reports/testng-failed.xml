@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Functional Testing]">
+  <test thread-count="5" verbose="0" name="Build 001(failed)">
+    <classes>
+      <class name="tests.LoginTest">
+        <methods>
+          <include name="TC001"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.LoginTest -->
+    </classes>
+  </test> <!-- Build 001(failed) -->
+</suite> <!-- Failed suite [Functional Testing] -->
